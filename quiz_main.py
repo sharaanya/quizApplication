@@ -59,7 +59,7 @@ class Quiz_gui:
         self.user_name = self.user_input.get()
         print(self.user_name)
         password = self.password_input.get()
-        # send this data to database llambda :land check( if user exists or not
+        # send this data to database, check if user exists or not
         self.data = self.db.checklogin(self.user_name, password)
         if len(self.data) > 0:
             # print the GUI
