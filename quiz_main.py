@@ -396,4 +396,3 @@ class Quiz_gui:
 
 
 run = Quiz_gui()
-# run karo ab
